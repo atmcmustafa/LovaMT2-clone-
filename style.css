@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+	text-decoration: none;
+}
+
+body{
+    background-image: url(bg.jpg);
+    /* opacity: 0.7; */
+    font-family: monospace;
+}
+
+.container {
+    /* height: 100vh;
+    width: 100vh; */
+}
+
+
+.container .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(9, 58, 58); */
+    height: 80px;
+   
+    
+}
+
+.container .menu li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;
+    flex-grow: 0;
+ 
+}
+
+.container .menu li a{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: white;
+}
+
+.container .menu li a:hover{
+    border-radius: 10px;
+    background-color: #ba25d1;
+    color: black;
+}
+
+
+
+.container .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+     
+
+.container .lovamt2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .anamenu {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+
+}
+
+.container .anamenu a {
+    color: white;
+}
+
+
+.container .anamenu .giris {
+    background-color: #380140;
+    width: 13%;
+    height: 50px;
+    color: white;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 17px;
+    border: 1px solid #9c27b0;;
+
+}
+
+.container .anamenu .kayit {
+    background-color: #5d200b;
+    border: 1px solid #ff5722;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* width: 180px;
+    height: 60px; */
+    width: 13%;
+    height: 50px;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.container .anamenu .sifre {
+    background-color: #033505;
+    border: 1px solid #4caf50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13%;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.container .anamenu .facebook {
+    background-color: #093354;
+    border: 1px solid #2196f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13%;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+
+.container .haberler {
+    margin-left: 260px;
+    display: flex;
+    width: 60%;
+    height: 520px;
+    /* background-color: blue; */
+}
+
+.container .haberler h3 {
+    display: inline-block;
+    /* background-color: purple; */
+    font-size: 30px;
+    padding: 10px;
+    margin: 30px;
+    color: white;
+}
+
+.container .haberler p  {
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-start;
+    text-indent: 10px;
+}
+
+.container .duyurular {
+    margin: 40px;
+    padding-top: 40px;
+    width: 400px;
+    height: 100px;
+    border:1px solid ;
+    border-radius: 10px;
+    background: rgb(230 230 230);
+}
+
+.container .duyurular .online span {
+    font-size: 20px;
+    /* padding: 20px; */
+
+}
+
+
+  /* .container .duyurular .oyunuindir {
+     width: 50%;
+    margin-top: 50px;
+    height: 100px;
+    background-color: purple; 
+     margin: 40px; 
+    margin-top: 50px;
+    width: 200px;
+    height: 100px;
+    border:1px solid ;
+    border-radius: 10px;
+    background: rgb(230 230 230);
+}   */
+
+.container .duyurular .oyunuindir img {
+    /* width: 100%;
+    height: 100px; */
+    border-radius: 10px;
+    margin-top: 50px;
+} 
+
+/* .container .duyurular .oyunuindir a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 20px;
+} */
+
+.container .duyurular .discord img {
+    margin-top: 20px;
+    /* width: 100%;
+    height: 100px; */
+    border-radius: 10px;
+} 
+
+
+.container .footer {
+    width: 100%;
+    height: 100px;
+    /* background-color: #033505; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 20px;
+
+}
+
+.container .footer p {
+    
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
